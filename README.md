@@ -1,47 +1,55 @@
-# ⭐Plant-Disease-Detection
-* Plant Disease is necessary for every farmer so we are created Plant disease detection using Deep learning. In which we are using convolutional Neural Network for classifying Leaf images into 39 Different Categories. The Convolutional Neural Code build in Pytorch Framework. For Training we are using Plant village dataset. Dataset Link is in My Blog Section.
+# 🌿 Plant-Disease-Detection
 
-## ⭐Run Project in your Machine
-* You must have **Python3.8** installed in your machine.
-* Create a Python Virtual Environment & Activate Virtual Environment [Link](https://docs.python.org/3/tutorial/venv.html)
-* Install all the dependencies using below command
-    `pip install -r requirements.txt`
-* Go to the `Flask Deployed App` folder.
-* Download the pre-trained model file `plant_disease_model_1.pt` from [here](https://drive.google.com/drive/folders/1ewJWAiduGuld_9oGSrTuLumg9y62qS6A?usp=share_link)
-* Add the downloaded file in `Flask Deployed App` folder.
-* Run the Flask app using below command `python3 app.py`
-* You can also use downloaded file in `Model` Section and play with it using Jupyter Notebook.
+Plant disease detection is crucial for farmers to ensure healthy crop yields. This project leverages deep learning, specifically a Convolutional Neural Network (CNN) built using the PyTorch framework, to classify leaf images into 39 different categories. The model is trained on the Plant Village dataset.
 
-## ⭐Contribution ( Open Source )
-* This Project is now open source.
-* All the developers who are intrested they can contribute in this project.
-* Yo can make UI better , make Deep learning model more powerful , add informative markdown file in section...
-* If you will change Deep learning make sure you upload updated markdown file (.md) , .pdf and .ipynb in particular section.
-* Make sure your code is working. It will not have any type or error.
-* You have to fork this project then make a pull request after you testing will successful.
-* How to make pull request : https://opensource.com/article/19/7/create-pull-request-github
+## 🚀 How to Run the Project on Your Machine
 
+1. **Prerequisites:** Ensure you have **Python 3.8** installed.
+2. **Setup Virtual Environment:**
+   - Create and activate a Python virtual environment using this [guide](https://docs.python.org/3/tutorial/venv.html).
+3. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. **Model Setup:**
+   - Navigate to the `Flask Deployed App` folder.
+   - Download the pre-trained model `plant_disease_model_1.pt` from [this link](https://drive.google.com/drive/folders/1ewJWAiduGuld_9oGSrTuLumg9y62qS6A?usp=share_link).
+   - Place the downloaded file in the `Flask Deployed App` folder.
+5. **Run the Flask App:**
+   ```bash
+   python3 app.py
+   ```
+6. **Jupyter Notebook:**
+   - You can also experiment with the model in the `Model` section using Jupyter Notebook.
 
-## ⭐Testing Images
+## 🤝 Contribution (Open Source)
 
-* If you do not have leaf images then you can use test images located in test_images folder
-* Each image has its corresponding disease name, so you can verify whether the model is working perfectly or not
+This project is open-source! Contributions are welcome to improve the UI, enhance the deep learning model, or add informative markdown files.
 
-## ⭐Blog Link
-<a href="https://medium.com/analytics-vidhya/plant-disease-detection-using-convolutional-neural-networks-and-pytorch-87c00c54c88f" target = "_blank">Plant Disease Detection Using Convolutional Neural Networks with PyTorch</a><br>
+- Ensure your code is error-free and functional.
+- Fork this project, test your changes, and create a pull request.
+- How to make a pull request: [Guide](https://opensource.com/article/19/7/create-pull-request-github)
 
-## ⭐Deployed App
-<a href="https://plant-disease-detection-ai.herokuapp.com/" target = "_blank">Plant-Disease-Detection-AI</a><br>
+## 🧪 Testing Images
 
+If you don't have leaf images, you can use the test images in the `test_images` folder. Each image has a corresponding disease name to verify model accuracy.
 
-## ⭐Snippet of Web App :
-#### Main page
-<img src = "demo_images/1.png" > <br>
-#### AI Engine 
-<img src = "demo_images/2.png"> <br>
-#### Results Page 
-<img src = "demo_images/3.png"> <br>
-#### Supplements/Fertilizer  Store
-<img src = "demo_images/4.JPG"> <br>
-#### Contact Us 
-<img src = "demo_images/5.png"> <br><br>
+## 📱 Web App Preview (Mobile View)
+
+### Main Page
+
+<img src = "demo_images/mobile_1.png" style="width: 300px;"> <br>
+
+### AI Engine
+
+<img src = "demo_images/mobile_2.png" style="width: 300px;"> <br>
+
+### Results Page
+
+<img src = "demo_images/mobile_3.png" style="width: 300px;"> <br>
+
+### Supplements/Fertilizer Store
+
+<img src = "demo_images/mobile_4.png" style="width: 300px;"> <br>
+
+This updated documentation offers a cleaner and more mobile-friendly presentation for enhanced user experience!
